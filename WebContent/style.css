@@ -1,0 +1,132 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #000000;
+}
+
+body {
+    margin: 50px;
+    text-align: center;
+}
+
+.new {
+    text-align: center;
+}
+
+h3 {
+    font-size: 15px; 
+    font-weight: 400;
+    text-align: center;
+}
+
+.info, #connexion {
+    background:#e9e8e8;
+    border-radius: 10px;
+    width: fit-content;
+    padding: .5em;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    
+}
+
+.gestion {
+    background:#e9e8e8;
+    border-radius: 10px;
+    padding: .5em;
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+    display: block;
+    
+}
+
+textarea {
+    background:#e9e8e8;
+    border-radius: 10px;
+    padding: .5em;
+    width: 500px;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    
+}
+
+label {
+    display:block; 
+    width:150px;
+    float:left;
+}
+
+input, #liste {
+    background: #ffffff;
+    border-radius: 10px;
+    border-width: 1px;
+    display : block;
+    /*float : right; */
+    margin-left : auto;
+    margin-right : auto;
+}
+
+#Login {
+    background:#ffffff;
+    border-radius: 10px;
+    border-width: 1px;
+    display: inline-block;
+}
+
+#txtMessage {
+    background:#ffffff;
+    display: inline-block;
+    width: 360px;
+}
+
+#btnVert, #btnSend {
+	background:#89d490;
+	border-radius: 10px;
+    border-width: 1px;
+    display: inline-block;
+    width: 140px;
+}
+
+#btnGris {
+	background:#e9e8e8;
+	border-radius: 10px;
+    border-width: 1px;
+    display: inline-block;
+    width: 200px;
+}
+
+#btnRouge, #btnClose {
+	background:#e08b8b;
+	border-radius: 10px;
+    border-width: 1px;
+    display: inline-block;
+    width: 200px;
+}
+
+.erreur {
+    background:#e08b8b;
+	border-radius: 10px;
+    border: 2px outset #e08b8b;
+    width: 215px;
+    margin-left: auto;
+    margin-right: auto;
+    font-style: italic;
+    font-size: 14px;
+    display: block;
+}
+
+ul {
+	display:inline;
+}
+
+li {
+	
+	list-style-type:none;
+}
+
+button:hover{
+	cursor:pointer;
+}
